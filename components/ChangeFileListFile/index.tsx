@@ -7,7 +7,7 @@ export const ChangeFileListFile: React.FC<{ setFileList: any }> = ({ setFileList
 
   const onSubmit = (e: any) => {
     e.preventDefault();
-    setFileList((prev) => [...prev, { name: nameRef?.current.value, value: valueRef?.current.value }]);
+    setFileList((prev: any) => [...prev, { name: nameRef.current?.value, value: valueRef.current?.value }]);
   };
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const DownloadFile: React.FC<{ fileList }> = ({ fileList }) => {
+export const DownloadFile: React.FC<{ fileList: any }> = ({ fileList }) => {
 
   function downloadObjectAsJson(exportObj: string, exportName: string) {
     try {
