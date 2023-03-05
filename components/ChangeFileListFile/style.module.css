@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 29px;
+  color: #1E1E1E;
+}
+
+.form__input {
+  padding: 10px 10px 10px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.form__button {
+  margin-top: 10px;
+}
