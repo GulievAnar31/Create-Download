@@ -9,7 +9,7 @@ export const FileList: React.FC<{ fileList: any[], setFileList: any }> = ({ file
           <li className={styles.field} key={`${file.name}${i}`}>
             {file.name} {file.value}
             <button onClick={() => {
-              setFileList(fileList.filter((item, index) => item.name !== file.name && index !== i))
+              setFileList(fileList.filter((item, index) =>  index !== i))
             }}>X</button>
           </li>
         );
