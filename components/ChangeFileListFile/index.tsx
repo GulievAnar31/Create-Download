@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.css';
 
-export const ChangeFileListFile: React.FC = ({ setFileList }) => {
+export const ChangeFileListFile: React.FC<{ setFileList: any }> = ({ setFileList }) => {
   const nameRef = React.useRef<HTMLInputElement | null>(null);
   const valueRef = React.useRef<HTMLInputElement | null>(null);
 

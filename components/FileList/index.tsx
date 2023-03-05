@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.css';
 
-export const FileList: React.FC<{ fileList: any[] }> = ({ fileList, setFileList }) => {
+export const FileList: React.FC<{ fileList: any[], setFileList: any }> = ({ fileList, setFileList }) => {
   return (
     <div className={styles.fileList}>
       {fileList && fileList?.map((file, i) => {
